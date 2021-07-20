@@ -4,6 +4,13 @@
 /* Colors */
 $light-color-1: #fff;
 
+/* Functions */
+@mixin text-1($size, $color) {
+    font: 400 $size 'Roboto', sans-serif;
+    color: $color;
+    letter-spacing: 2px;
+}
+
 /* Colors */
 @import "geral";
 @import "menu";

@@ -1,7 +1,24 @@
 .menu {
     position: absolute;
-    .logo {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 
+    .logo {
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 100px;
+            fill:$light-color-1;
+        }
+
+        .link-principal {
+            @include text-1(14px, $light-color-1);
+        }
     }
 
     .menu-lista {

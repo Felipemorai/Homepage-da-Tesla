@@ -1,6 +1,7 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 /* Colors */
+/* Functions */
 /* Colors */
 * {
   margin: 0;
@@ -18,5 +19,35 @@ body {
 
 .menu {
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.menu .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .logo svg {
+  width: 100px;
+  fill: #fff;
+}
+
+.menu .logo .link-principal {
+  font: 400 14px "Roboto", sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */
