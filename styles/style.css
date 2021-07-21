@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.destaque img {
+  width: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -48,6 +52,27 @@ body {
 .menu .logo .link-principal {
   font: 400 14px "Roboto", sans-serif;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.menu .logo .link-principal::before {
+  content: '|';
+  padding: 0 16px;
+}
+
+.menu .menu-lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu .menu-lista .menu-item h3, .menu .menu-lista .menu-item a {
+  cursor: pointer;
+  padding: 0 15px;
+  font: 400 14px "Roboto", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 52px;
 }
 /*# sourceMappingURL=style.css.map */

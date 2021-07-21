@@ -8,7 +8,7 @@ $light-color-1: #fff;
 @mixin text-1($size, $color) {
     font: 400 $size 'Roboto', sans-serif;
     color: $color;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /* Colors */

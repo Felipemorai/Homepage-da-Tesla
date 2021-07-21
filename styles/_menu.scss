@@ -18,12 +18,25 @@
 
         .link-principal {
             @include text-1(14px, $light-color-1);
+
+            &::before {
+                content: '|';
+                padding: 0 16px;
+            }
         }
     }
 
     .menu-lista {
-        .menu-item {
+        display: flex;
 
+        .menu-item {
+            h3, a {
+                cursor: pointer;
+                padding: 0 15px;
+                @include text-1(14px, $light-color-1);
+                text-transform: uppercase;
+                line-height: 52px;
+            }
         }
     }
 }
