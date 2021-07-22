@@ -67,6 +67,7 @@ body {
 }
 
 .menu .menu-lista .menu-item h3, .menu .menu-lista .menu-item a {
+  display: block;
   cursor: pointer;
   padding: 0 15px;
   font: 400 14px "Roboto", sans-serif;
@@ -74,5 +75,21 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 52px;
+}
+
+.menu .menu-lista .menu-item .item-lupa svg {
+  fill: #fff;
+  display: block;
+  padding: 18px 0;
+  height: 16px;
+  width: 16px;
+}
+
+.menu .menu-lista .menu-item .item-carrinho svg {
+  fill: #fff;
+  display: block;
+  padding: 15px 0;
+  height: 22px;
+  width: 22px;
 }
 /*# sourceMappingURL=style.css.map */

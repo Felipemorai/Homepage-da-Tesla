@@ -31,11 +31,28 @@
 
         .menu-item {
             h3, a {
+                display: block;
                 cursor: pointer;
                 padding: 0 15px;
                 @include text-1(14px, $light-color-1);
                 text-transform: uppercase;
                 line-height: 52px;
+            }
+
+            .item-lupa svg {
+                fill: $light-color-1;
+                display: block;
+                padding: 18px 0;
+                height: 16px;
+                width: 16px;
+            }
+
+            .item-carrinho svg {
+                fill: $light-color-1;
+                display: block;
+                padding: 15px 0;
+                height: 22px;
+                width: 22px;
             }
         }
     }
