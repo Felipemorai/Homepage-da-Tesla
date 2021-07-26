@@ -2,12 +2,32 @@
     .linha {
         width: 100%;
         display: flex;
-        .coluna {
 
+        .coluna { 
+            padding: 12px 0 0;
+            flex: 1;
+
+            + .coluna {
+                padding-left: 24px;
+            }
         }
     }
 
     .conteudo-area {
+        display: block;
+        position: relative;
 
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        h3 {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: 0;
+            text-align: center;
+        }
     }
 }

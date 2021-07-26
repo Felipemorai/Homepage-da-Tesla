@@ -92,4 +92,40 @@ body {
   height: 22px;
   width: 22px;
 }
+
+.conteudo .linha {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.conteudo .linha .coluna {
+  padding: 12px 0 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.conteudo .linha .coluna + .coluna {
+  padding-left: 24px;
+}
+
+.conteudo .conteudo-area {
+  display: block;
+  position: relative;
+}
+
+.conteudo .conteudo-area img {
+  display: block;
+  width: 100%;
+}
+
+.conteudo .conteudo-area h3 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
