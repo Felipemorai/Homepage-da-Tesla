@@ -17,6 +17,10 @@
         display: block;
         position: relative;
 
+        + .conteudo-area {
+            margin-top: 16px;
+        }
+
         img {
             display: block;
             width: 100%;
@@ -27,6 +31,8 @@
             top: 50%;
             right: 0;
             left: 0;
+            line-height: 40px;
+            margin-top: -20px;
             text-align: center;
             @include text-2(24px, $dark-color-1);
         }

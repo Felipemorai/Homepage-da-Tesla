@@ -21,6 +21,11 @@ body {
   background: #fff;
 }
 
+main {
+  width: 1800px;
+  margin: 0 auto;
+}
+
 .menu {
   position: absolute;
   top: 0;
@@ -116,6 +121,10 @@ body {
   position: relative;
 }
 
+.conteudo .conteudo-area + .conteudo-area {
+  margin-top: 16px;
+}
+
 .conteudo .conteudo-area img {
   display: block;
   width: 100%;
@@ -126,6 +135,8 @@ body {
   top: 50%;
   right: 0;
   left: 0;
+  line-height: 40px;
+  margin-top: -20px;
   text-align: center;
   font: 500 24px "Roboto", sans-serif;
   color: #000;
