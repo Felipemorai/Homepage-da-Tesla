@@ -28,6 +28,7 @@
             right: 0;
             left: 0;
             text-align: center;
+            @include text-2(24px, $dark-color-1);
         }
     }
 }

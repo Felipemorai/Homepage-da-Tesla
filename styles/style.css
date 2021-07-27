@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 /* Colors */
 /* Functions */
-/* Colors */
+/* Sass */
 * {
   margin: 0;
   padding: 0;
@@ -127,5 +127,8 @@ body {
   right: 0;
   left: 0;
   text-align: center;
+  font: 500 24px "Roboto", sans-serif;
+  color: #000;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */
