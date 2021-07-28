@@ -142,4 +142,23 @@ main {
   color: #000;
   letter-spacing: 2px;
 }
+
+.conteudo .conteudo-area.conteudo-texto-claro h3 {
+  color: #fff;
+}
+
+.conteudo .conteudo-area.conteudo-topo h3 {
+  top: 20%;
+  margin-top: 0;
+}
+
+.conteudo .conteudo-area.conteudo-esquerda h3 {
+  left: 15%;
+  text-align: left;
+}
+
+.conteudo .conteudo-area.conteudo-direita h3 {
+  right: 15%;
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */

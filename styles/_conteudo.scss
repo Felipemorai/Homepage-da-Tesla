@@ -36,5 +36,32 @@
             text-align: center;
             @include text-2(24px, $dark-color-1);
         }
+
+        &.conteudo-texto-claro {
+            h3 {
+                color: $light-color-1;
+            }
+        }
+
+        &.conteudo-topo {
+            h3 {
+                top: 20%;
+                margin-top: 0;
+            }
+        }
+
+        &.conteudo-esquerda {
+            h3 {
+                left: 15%;
+                text-align: left;
+            }
+        }
+         
+        &.conteudo-direita {
+            h3 {
+                right: 15%;
+                text-align: right;
+            }
+        }
     }
 }
