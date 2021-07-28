@@ -161,4 +161,31 @@ main {
   right: 15%;
   text-align: right;
 }
+
+footer {
+  padding: 27px 0;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer nav ul li {
+  padding: 8px 16px 8px 0px;
+}
+
+footer nav ul li a {
+  font: 500 12px "Roboto", sans-serif;
+  color: #393c41;
+  letter-spacing: 2px;
+}
+
+footer nav ul li a:hover {
+  color: #000;
+}
 /*# sourceMappingURL=style.css.map */

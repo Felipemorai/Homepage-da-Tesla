@@ -5,6 +5,7 @@
 $light-color-1: #fff;
 
 $dark-color-1: #000;
+$dark-color-2: #393c41;
 
 /* Functions */
 @mixin text-1($size, $color) {
@@ -24,3 +25,4 @@ $dark-color-1: #000;
 @import "menu";
 @import "destaque";
 @import "conteudo"; 
+@import "footer";
