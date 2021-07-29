@@ -63,5 +63,12 @@
                 text-align: right;
             }
         }
+
+        &:hover {
+            img {
+                box-shadow: 1px 1px 4px $light-color-2;
+                transition: all 0.25s linear;
+            }
+        }
     }
 }

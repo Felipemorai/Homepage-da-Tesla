@@ -98,6 +98,10 @@ main {
   width: 22px;
 }
 
+.menu:hover {
+  background: #fff;
+}
+
 .conteudo .linha {
   width: 100%;
   display: -webkit-box;
@@ -160,6 +164,13 @@ main {
 .conteudo .conteudo-area.conteudo-direita h3 {
   right: 15%;
   text-align: right;
+}
+
+.conteudo .conteudo-area:hover img {
+  -webkit-box-shadow: 1px 1px 4px #d0d1d2;
+          box-shadow: 1px 1px 4px #d0d1d2;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
 }
 
 footer {
