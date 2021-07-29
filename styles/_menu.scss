@@ -59,5 +59,21 @@
 
     &:hover {
         background: $light-color-1;
+
+        .link-principal {
+            color: $dark-color-1 !important;
+        }
+
+        .logo svg,
+        .item-lupa svg,
+        .item-carrinho svg {
+            fill: $dark-color-1 !important;
+        }
+
+        .menu-item {
+            h3, a {
+                color: $dark-color-1 !important;
+            }
+        }
     }
 }

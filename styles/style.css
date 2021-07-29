@@ -102,6 +102,20 @@ main {
   background: #fff;
 }
 
+.menu:hover .link-principal {
+  color: #000 !important;
+}
+
+.menu:hover .logo svg,
+.menu:hover .item-lupa svg,
+.menu:hover .item-carrinho svg {
+  fill: #000 !important;
+}
+
+.menu:hover .menu-item h3, .menu:hover .menu-item a {
+  color: #000 !important;
+}
+
 .conteudo .linha {
   width: 100%;
   display: -webkit-box;
