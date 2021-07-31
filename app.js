@@ -11,6 +11,15 @@ function startEfectMenu() {
 
 
     function manipulateMenu() {
-        console.log("scroll", window.pageYOffset)
+        let positionScroll = window.pageYOffset
+
+        if (positionScroll > 60) {
+            menu.classList.add('dark-menu')
+        }
+        else {
+            menu.classList.remove('dark-menu')
+        }
+
+        menu.style.backgroundColor = "rgba(255, 255, 255, " + positionScroll / 100 + ")"
     }
 }
