@@ -1,5 +1,24 @@
+%dark-font-menu {
+    .link-principal {
+        color: $dark-color-1 !important;
+    }
+
+    .logo svg,
+    .item-lupa svg,
+    .item-carrinho svg {
+        fill: $dark-color-1 !important;
+    }
+
+    .menu-item {
+        h3, a {
+            color: $dark-color-1 !important;
+        }
+    }
+}
+
 .menu {
     position: fixed;
+    z-index: 9999;
     top: 0;
     left: 0;
     right: 0;
@@ -57,24 +76,11 @@
         }
     }
 
-    &:hover, 
+    &:hover {
+        background: $light-color-1 !important;
+        @extend %dark-font-menu;
+    }
     &.dark-menu {
-        background: $light-color-1;
-
-        .link-principal {
-            color: $dark-color-1 !important;
-        }
-
-        .logo svg,
-        .item-lupa svg,
-        .item-carrinho svg {
-            fill: $dark-color-1 !important;
-        }
-
-        .menu-item {
-            h3, a {
-                color: $dark-color-1 !important;
-            }
-        }
+       @extend %dark-font-menu;
     }
 }

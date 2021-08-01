@@ -26,8 +26,25 @@ main {
   margin: 0 auto;
 }
 
+.menu:hover .link-principal, .menu.dark-menu .link-principal {
+  color: #000 !important;
+}
+
+.menu:hover .logo svg, .menu.dark-menu .logo svg,
+.menu:hover .item-lupa svg,
+.menu.dark-menu .item-lupa svg,
+.menu:hover .item-carrinho svg,
+.menu.dark-menu .item-carrinho svg {
+  fill: #000 !important;
+}
+
+.menu:hover .menu-item h3, .menu.dark-menu .menu-item h3, .menu:hover .menu-item a, .menu.dark-menu .menu-item a {
+  color: #000 !important;
+}
+
 .menu {
   position: fixed;
+  z-index: 9999;
   top: 0;
   left: 0;
   right: 0;
@@ -98,24 +115,8 @@ main {
   width: 22px;
 }
 
-.menu:hover, .menu.dark-menu {
-  background: #fff;
-}
-
-.menu:hover .link-principal, .menu.dark-menu .link-principal {
-  color: #000 !important;
-}
-
-.menu:hover .logo svg,
-.menu:hover .item-lupa svg,
-.menu:hover .item-carrinho svg, .menu.dark-menu .logo svg,
-.menu.dark-menu .item-lupa svg,
-.menu.dark-menu .item-carrinho svg {
-  fill: #000 !important;
-}
-
-.menu:hover .menu-item h3, .menu:hover .menu-item a, .menu.dark-menu .menu-item h3, .menu.dark-menu .menu-item a {
-  color: #000 !important;
+.menu:hover {
+  background: #fff !important;
 }
 
 .conteudo .linha {
