@@ -115,6 +115,32 @@ main {
   width: 22px;
 }
 
+.menu .submenu {
+  background: #d0d1d2;
+  padding: 60px 100px 100px;
+  position: absolute;
+  top: 52px;
+  right: 0;
+  left: 0;
+}
+
+.menu .submenu div a {
+  display: block;
+  font: 400 14px "Roboto", sans-serif;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
+
+.menu .submenu div .submenu-titulo {
+  font: 500 14px "Roboto", sans-serif;
+  color: #000;
+  letter-spacing: 2px;
+  border-bottom: 5px solid #d0d1d2;
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+
 .menu:hover {
   background: #fff !important;
 }

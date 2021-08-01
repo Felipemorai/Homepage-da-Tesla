@@ -76,6 +76,31 @@
         }
     }
 
+    .submenu {
+        background: $light-color-2;
+        padding: 60px 100px 100px;
+        position: absolute;
+        top: 52px;
+        right: 0;
+        left: 0;
+
+        div {
+            a {
+                display: block;
+                @include text-1(14px, $dark-color-1);
+                line-height: 34px;
+
+            }
+
+            .submenu-titulo {
+                @include text-2(14px, $dark-color-1)
+                border-bottom: 5px solid $light-color-2;
+                padding-bottom: 18px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
     &:hover {
         background: $light-color-1 !important;
         @extend %dark-font-menu;
