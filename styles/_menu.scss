@@ -103,6 +103,19 @@
                 margin-bottom: 30px;
             }
         }
+
+        .submenu-destaque {
+            flex: 2;
+            img {
+                width: 100%;
+            }
+
+            h4 {
+                margin-top: 24px;
+                text-align: center;
+                @include text-2(24px, $dark-color-2);
+            }
+        }
     }
 
     &:hover {

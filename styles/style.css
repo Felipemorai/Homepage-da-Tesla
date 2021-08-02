@@ -151,6 +151,24 @@ main {
   margin-bottom: 30px;
 }
 
+.menu .submenu .submenu-destaque {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.menu .submenu .submenu-destaque img {
+  width: 100%;
+}
+
+.menu .submenu .submenu-destaque h4 {
+  margin-top: 24px;
+  text-align: center;
+  font: 500 24px "Roboto", sans-serif;
+  color: #393c41;
+  letter-spacing: 2px;
+}
+
 .menu:hover {
   background: #fff !important;
 }
