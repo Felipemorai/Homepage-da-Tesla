@@ -116,12 +116,22 @@ main {
 }
 
 .menu .submenu {
-  background: #d0d1d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
   padding: 60px 100px 100px;
   position: absolute;
   top: 52px;
   right: 0;
   left: 0;
+}
+
+.menu .submenu div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 12px;
 }
 
 .menu .submenu div a {

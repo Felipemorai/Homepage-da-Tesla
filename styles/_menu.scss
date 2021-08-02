@@ -77,7 +77,8 @@
     }
 
     .submenu {
-        background: $light-color-2;
+        display: flex;
+        background: $light-color-1;
         padding: 60px 100px 100px;
         position: absolute;
         top: 52px;
@@ -85,6 +86,9 @@
         left: 0;
 
         div {
+            flex: 1;
+            margin: 0 12px;
+            
             a {
                 display: block;
                 @include text-1(14px, $dark-color-1);
@@ -93,7 +97,7 @@
             }
 
             .submenu-titulo {
-                @include text-2(14px, $dark-color-1)
+                @include text-2(14px, $dark-color-1);
                 border-bottom: 5px solid $light-color-2;
                 padding-bottom: 18px;
                 margin-bottom: 30px;
