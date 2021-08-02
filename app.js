@@ -1,6 +1,8 @@
 window.onload = () => {
     /* Load menu structure */
-    startEfectMenu();
+    startEfectMenu()
+
+    controlSubmenu()
 }
 
 function startEfectMenu() {
@@ -22,4 +24,12 @@ function startEfectMenu() {
 
         menu.style.backgroundColor = "rgba(255, 255, 255, " + positionScroll / 100 + ")"
     }
+}
+
+function controlSubmenu() {
+    let menuItems = document.querySelectorAll('.menu-item')
+
+    menuItems.forEach(element => {
+        element.addEventListener('mouseover', )
+    });
 }
