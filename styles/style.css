@@ -116,15 +116,19 @@ main {
 }
 
 .menu .submenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   background: #fff;
   padding: 60px 100px 100px;
   position: absolute;
   top: 52px;
   right: 0;
   left: 0;
+}
+
+.menu .submenu.toshow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .menu .submenu div {

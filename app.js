@@ -30,6 +30,17 @@ function controlSubmenu() {
     let menuItems = document.querySelectorAll('.menu-item')
 
     menuItems.forEach(element => {
-        element.addEventListener('mouseover', )
+        element.addEventListener('mouseover', showSubmenu)
+        element.addEventListener('mouseout', hideSubmenu)
     });
+
+    function showSubmenu(e) {
+        let submenu = e.target.parentElement.nextElementSibling
+        submenu.classList.add('toshow')
+    }
+
+    function hideSubmenu() {
+        let submenu = e.target.parentElement.nextElementSibling
+        submenu.classList.remove('toshow')
+    }
 }

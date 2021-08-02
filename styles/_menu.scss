@@ -77,13 +77,17 @@
     }
 
     .submenu {
-        display: flex;
+        display: none;
         background: $light-color-1;
         padding: 60px 100px 100px;
         position: absolute;
         top: 52px;
         right: 0;
         left: 0;
+
+        &.toshow {
+           display: flex;
+        }
 
         div {
             flex: 1;
