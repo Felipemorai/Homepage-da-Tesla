@@ -28,19 +28,33 @@ function startEfectMenu() {
 
 function controlSubmenu() {
     let menuItems = document.querySelectorAll('.menu-item')
+    let submenus = document.querySelectorAll('.submenu')
 
     menuItems.forEach(element => {
         element.addEventListener('mouseover', showSubmenu)
         element.addEventListener('mouseout', hideSubmenu)
     });
 
+    submenus.forEach(element => {
+        element.addEventListener('mouseover', showSubmenuToSubmenu)
+        element.addEventListener('mouseleave', hideSubmenuToSubmenu)
+    })
+
     function showSubmenu(e) {
         let submenu = e.target.parentElement.nextElementSibling
         submenu.classList.add('toshow')
     }
 
-    function hideSubmenu() {
+    function hideSubmenu(e) {
         let submenu = e.target.parentElement.nextElementSibling
         submenu.classList.remove('toshow')
+    }
+
+    function showSubmenuToSubmenu(e) {
+        e.target.classList.add('toshow')
+    }
+
+    function hideSubmenuToSubmenu(e) {
+        e.target.classList.remove('toshow')
     }
 }
