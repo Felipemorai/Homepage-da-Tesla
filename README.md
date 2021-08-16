@@ -2,7 +2,7 @@
 <h1 align="center">Tesla Shop</h1>
 <p align="center">Tesla shop website, for our customers to choose from a wide range of products</p>
 
-![gifmaker_1629056916757](https://user-images.githubusercontent.com/82244432/129491424-e7ec16f3-5181-4689-b808-71add9fd9e8c.gif)
+<h1 align="center"><img src="https://user-images.githubusercontent.com/82244432/129491424-e7ec16f3-5181-4689-b808-71add9fd9e8c.gif"/></h1>
 
 <h1 align="center">🚀 Tecnologies</h1>
 <p align="center">The following tecnologies were used in this project</p>
