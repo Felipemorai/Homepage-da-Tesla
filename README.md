@@ -4,4 +4,16 @@
 
 ![gifmaker_1629056916757](https://user-images.githubusercontent.com/82244432/129491424-e7ec16f3-5181-4689-b808-71add9fd9e8c.gif)
 
+<h1 align="center">🚀 Tecnologies</h1>
+<p align="center">The following tecnologies were used in this project</p>
+<p>*✔️html</p>
+<p>*✔️css</p>
+<p>*✔️scss</p>
+<p>*✔️sass</p>
+<p>*✔️javascript</p>
+
+<h1 align="center">⚠️ Warning</h1>
+<p align="center">The project in development</p>
+
+
 
